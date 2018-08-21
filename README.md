@@ -119,3 +119,7 @@ The initial eslint test output:
 ## Fixing function to become condensed
 
 * [Removing the necessity to the trailing comma](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/2ae69dbe739ffc4d6549e8445a75e630c419bd1c) but this is interesting one because, really, if a function could have more arguments, better is to keep a trailing cooma so that its better visualization in the git, always a new line
+
+## Parenthesis to the argument of the arrow function
+
+* [Fixing parentheis](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/647964a9a748ecf40b721284783807754e87c762)
