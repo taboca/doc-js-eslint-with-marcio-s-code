@@ -22,6 +22,6 @@ function myTest() {
   });
 }
 
-myTest().then((data) => {
-  console.log('Result is ' + data);
+myTest().then((data = 'default') => {
+  console.log(`Result is ${data}`);
 });
