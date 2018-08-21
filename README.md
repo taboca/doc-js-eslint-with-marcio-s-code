@@ -69,3 +69,5 @@ The initial eslint test output:
 ```
 
 ##  Block must not be padded by blank lines
+
+* [Removing blank line after the beginning of the block](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/95d1f4fc564cf4541efc5d2e86c50c0ede590a6d)
