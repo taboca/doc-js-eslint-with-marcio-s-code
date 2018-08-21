@@ -83,3 +83,7 @@ The initial eslint test output:
 ## There should be no spaces inside this paren
 
 * [Removing spaces within the parenthesis of function call](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/8f5fa71662869e2e74ce7a026cbfa8a7e1d245cc)
+
+## Missing semicolon
+
+* [Adding semicolon within the code block for the arrow function passed as argument to the user function](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/63fe215f137c73a51f5509ea11bab5db2cbd5c57)
