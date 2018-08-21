@@ -123,3 +123,7 @@ The initial eslint test output:
 ## Parenthesis to the argument of the arrow function
 
 * [Fixing parentheis](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/647964a9a748ecf40b721284783807754e87c762)
+
+## template
+
+* [Unexpected string concatenation](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/faa6209bbe0f3d35a044003158d72cd9c01e1530)
