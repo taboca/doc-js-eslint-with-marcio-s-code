@@ -127,3 +127,36 @@ The initial eslint test output:
 ## template
 
 * [Unexpected string concatenation](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/faa6209bbe0f3d35a044003158d72cd9c01e1530)
+
+## Code after
+
+```
+class _Promise {
+  constructor(userExecutor) {
+    userExecutor((data) => { this.resolveMethod(data); });
+    this.endUserThenFunction = null;
+  }
+
+  resolveMethod(data) {
+    console.log(this.endUserThenFunction);
+    this.endUserThenFunction(data);
+  }
+
+  then(endPassedThenFunction) {
+    this.endUserThenFunction = endPassedThenFunction;
+  }
+}
+
+function myTest() {
+  return new _Promise((callBackForCallingThen) => {
+    setTimeout(() => {
+      callBackForCallingThen('data');
+    }, 3000);
+  });
+}
+
+myTest().then((data = 'default') => {
+  console.log(`Result is ${data}`);
+});
+
+```
