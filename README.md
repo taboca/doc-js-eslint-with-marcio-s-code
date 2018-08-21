@@ -1,7 +1,6 @@
 ## Eslint result
 
 My initial code
-
 '''
 
 class _Promise {
