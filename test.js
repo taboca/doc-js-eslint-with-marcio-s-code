@@ -16,7 +16,7 @@ class _Promise {
 
 function myTest() {
   return new _Promise(
-    callBackForCallingThen => {
+    (callBackForCallingThen) => {
       setTimeout( ()=> {
         callBackForCallingThen("data")
       },3000);
