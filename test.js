@@ -18,7 +18,7 @@ function myTest() {
   return new _Promise(
     (callBackForCallingThen) => {
       setTimeout(() => {
-        callBackForCallingThen('data')
+        callBackForCallingThen('data');
       },3000);
     }
   );
