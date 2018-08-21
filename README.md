@@ -107,3 +107,7 @@ The initial eslint test output:
 ## Strings must use single quote
 
 * [Fixing quotes](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/646959ce076790bdf0d5d90ab32ac26480db3b56)
+
+## Adding semi colon
+
+* [Missing semicolon](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/59f6fc95ef637e1679269cfadd71026a3b047ad7)
