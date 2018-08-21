@@ -5,7 +5,7 @@ My initial code
 ```
 
 class _Promise {
-  constructor (user_exec_function) {
+  constructor(user_exec_function) {
     user_exec_function( (data) => { this.resolveMethod(data) } );
     this.endUserThenFunction = null;
   }
@@ -68,6 +68,10 @@ The initial eslint test output:
 
 ```
 
-##  Block must not be padded by blank lines
+## Block must not be padded by blank lines
 
 * [Removing blank line after the beginning of the block](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/95d1f4fc564cf4541efc5d2e86c50c0ede590a6d)
+
+## Unexpected space before function parentheses  
+
+* [Removing space before the function parenthesis]()
