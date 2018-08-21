@@ -22,6 +22,6 @@ function myTest() {
   });
 }
 
-myTest().then(data => {
+myTest().then((data) => {
   console.log('Result is ' + data);
 });
