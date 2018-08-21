@@ -1,6 +1,6 @@
 class _Promise {
   constructor(userExecutor) {
-    userExecutor((data) => { this.resolveMethod(data) });
+    userExecutor((data) => { this.resolveMethod(data); });
     this.endUserThenFunction = null;
   }
 
