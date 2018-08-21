@@ -115,3 +115,7 @@ The initial eslint test output:
 ## Space after comma
 
 * [A space is required after ','](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/e808c3042cfb7070fce6b1bd06f8696d457bc4d0)
+´
+## Fixing function to become condensed
+
+* [Removing the necessity to the trailing comma](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/2ae69dbe739ffc4d6549e8445a75e630c419bd1c) but this is interesting one because, really, if a function could have more arguments, better is to keep a trailing cooma so that its better visualization in the git, always a new line
