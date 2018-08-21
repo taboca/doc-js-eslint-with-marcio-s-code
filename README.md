@@ -79,3 +79,7 @@ The initial eslint test output:
 ## Identifier 'user_exec_function' is not in camel case
 
 * [Using camel case](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/da0acdb22b46a459b4fc5a2cf7ff0ec790bcc99f)
+
+## There should be no spaces inside this paren
+
+* [Removing spaces within the parenthesis of function call](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/8f5fa71662869e2e74ce7a026cbfa8a7e1d245cc)
