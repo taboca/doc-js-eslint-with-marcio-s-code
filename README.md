@@ -75,3 +75,7 @@ The initial eslint test output:
 ## Unexpected space before function parentheses  
 
 * [Removing space before the function parenthesis](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/7cbfea26a1d8c7423256d3d66665414b5bf24846)
+
+## Identifier 'user_exec_function' is not in camel case
+
+* [Using camel case]()
