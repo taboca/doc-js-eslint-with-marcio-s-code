@@ -15,13 +15,11 @@ class _Promise {
 }
 
 function myTest() {
-  return new _Promise(
-    (callBackForCallingThen) => {
-      setTimeout(() => {
-        callBackForCallingThen('data');
-      }, 3000);
-    }
-  );
+  return new _Promise((callBackForCallingThen) => {
+    setTimeout(() => {
+      callBackForCallingThen('data');
+    }, 3000);
+  });
 }
 
 myTest().then(data => {
