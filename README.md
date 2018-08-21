@@ -2,7 +2,8 @@
 
 My initial code
 
-´´´
+'''
+
 class _Promise {
   constructor (user_exec_function) {
     user_exec_function( (data) => { this.resolveMethod(data) } );
@@ -33,11 +34,11 @@ myTest().then(data => {
   console.log('Result is ' + data);
 });
 
-´´´
+'''
 
 The initial eslint test output:
 
-´´´
+'''
 
    1:16  error    Block must not be padded by blank lines                                              padded-blocks
    3:14  error    Unexpected space before function parentheses                                         space-before-function-paren
@@ -65,6 +66,6 @@ The initial eslint test output:
 ✖ 22 problems (20 errors, 2 warnings)
   19 errors and 0 warnings potentially fixable with the `--fix` option.
 
-´´´
+'''
 
 ##  Block must not be padded by blank lines
