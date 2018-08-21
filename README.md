@@ -91,3 +91,7 @@ The initial eslint test output:
 ## Expected indentation of 4 spaces but found 5
 
 * [Fixing Identation](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/89ee58f0ca27b02f9fdf5a57c0659c5721727221)
+
+## Expected parentheses around arrow function argument having a body with curly braces
+
+* [Inserting parenthesis to the argument](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/6c9b2dd8c12dda2a28b02ff201b3e9a10e921fea)
