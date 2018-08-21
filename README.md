@@ -103,3 +103,7 @@ The initial eslint test output:
 ## There should be space before =>
 
 * [arrow-spacing now ok](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/177be95555a9f9bf9ab0d8adb2fea6147de13145)
+
+## Strings must use single quote
+
+* [Fixing quotes](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/646959ce076790bdf0d5d90ab32ac26480db3b56)
