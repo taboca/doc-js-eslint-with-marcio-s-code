@@ -19,7 +19,7 @@ function myTest() {
     (callBackForCallingThen) => {
       setTimeout(() => {
         callBackForCallingThen('data');
-      },3000);
+      }, 3000);
     }
   );
 }
