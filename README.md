@@ -1,3 +1,7 @@
+# intro
+
+The following is a piece of junk code I usually write. Then I end up using ESLint with the Airbnb style set of rules on it. And punished myself to fix all the inconsistencies.
+
 ## Eslint result
 
 My initial code
