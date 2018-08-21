@@ -87,3 +87,7 @@ The initial eslint test output:
 ## Missing semicolon
 
 * [Adding semicolon within the code block for the arrow function passed as argument to the user function](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/63fe215f137c73a51f5509ea11bab5db2cbd5c57)
+
+## Expected indentation of 4 spaces but found 5
+
+* [Fixing Identation](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/89ee58f0ca27b02f9fdf5a57c0659c5721727221)
