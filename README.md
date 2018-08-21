@@ -99,3 +99,7 @@ The initial eslint test output:
 ## space-in-parens again
 
 * [No spaces](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/2a34de7cacd553eea9aa2237e1d903ee4995edea)
+
+## There should be space before =>
+
+* [arrow-spacing now ok](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/177be95555a9f9bf9ab0d8adb2fea6147de13145)
