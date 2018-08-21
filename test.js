@@ -1,4 +1,4 @@
-class _Promise {
+class myPromise {
   constructor(userExecutor) {
     userExecutor((data) => { this.resolveMethod(data); });
     this.endUserThenFunction = null;
@@ -15,7 +15,7 @@ class _Promise {
 }
 
 function myTest() {
-  return new _Promise((callBackForCallingThen) => {
+  return new myPromise((callBackForCallingThen) => {
     setTimeout(() => {
       callBackForCallingThen('data');
     }, 3000);
