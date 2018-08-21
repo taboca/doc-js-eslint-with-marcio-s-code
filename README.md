@@ -111,3 +111,7 @@ The initial eslint test output:
 ## Adding semi colon
 
 * [Missing semicolon](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/59f6fc95ef637e1679269cfadd71026a3b047ad7)
+
+## Space after comma
+
+* [A space is required after ','](https://github.com/taboca/doc-js-eslint-with-marcio-s-code/commit/e808c3042cfb7070fce6b1bd06f8696d457bc4d0)
