@@ -164,3 +164,39 @@ myTest().then((data = 'default') => {
 });
 
 ```
+
+## myPromise instead of _Promise
+
+Also fixed _Promise since the Airbnb rule didn´t catch it.
+
+
+```
+class myPromise {
+  constructor(userExecutor) {
+    userExecutor((data) => { this.resolveMethod(data); });
+    this.endUserThenFunction = null;
+  }
+
+  resolveMethod(data) {
+    console.log(this.endUserThenFunction);
+    this.endUserThenFunction(data);
+  }
+
+  then(endPassedThenFunction) {
+    this.endUserThenFunction = endPassedThenFunction;
+  }
+}
+
+function myTest() {
+  return new myPromise((callBackForCallingThen) => {
+    setTimeout(() => {
+      callBackForCallingThen('data');
+    }, 3000);
+  });
+}
+
+myTest().then((data = 'default') => {
+  console.log(`Result is ${data}`);
+});
+
+```
